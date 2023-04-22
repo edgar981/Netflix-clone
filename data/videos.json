@@ -1,0 +1,854 @@
+{
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nt7-Go7Y6tMJOeQZXqzdtdyzCRY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6VDjr4PqEN8"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-21T20:21:39Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "WATCH LIVE Western Australia Margaret River Pro 2023 - Day 3",
+        "description": "Shop a limited run of official event merchandise from the 2023 Margaret River Pro at: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6VDjr4PqEN8/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6VDjr4PqEN8/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6VDjr4PqEN8/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "live",
+        "publishTime": "2023-04-21T20:21:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FMmWG6ZP-1xosvcj-iQfdOali7s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hk_yEM60ItI"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-21T10:28:17Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "WATCH LIVE Western Australia Margaret River Pro 2023 - Day 2",
+        "description": "Shop a limited run of official event merchandise from the 2023 Margaret River Pro at: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hk_yEM60ItI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hk_yEM60ItI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hk_yEM60ItI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-21T10:28:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Pt4ytFeG3DdAF-1K6NG1aZp6pDg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nY_koydci3Q"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-22T00:03:18Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "ASSISTA AO VIVO Western Australia Margaret River Pro 2023 - Dia 3",
+        "description": "O Mid-season Cut está aqui e Margaret River é uma batalha pela sobrevivência. O Tour do Campeonato completo entra, mas ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nY_koydci3Q/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nY_koydci3Q/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nY_koydci3Q/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "live",
+        "publishTime": "2023-04-22T00:03:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YW3LpabE4Pz3RpKAH9Fu75zwW6s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nHFoQrsLmFE"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-21T23:40:18Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "ASSISTA AO VIVO Western Australia Margaret River Pro 2023 - Dia 3",
+        "description": "O Mid-season Cut está aqui e Margaret River é uma batalha pela sobrevivência. O Tour do Campeonato completo entra, mas ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nHFoQrsLmFE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nHFoQrsLmFE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nHFoQrsLmFE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-21T23:40:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "O3qAjTUPPN6n5sBLsEQHnnVPSFY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xtHZKToMvus"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-02T17:46:49Z",
+        "channelId": "UCTYHNSWYy4jCSCj1Q1Fq0ew",
+        "title": "Interlusion | A Billabong Surf Film Shot in the Mentawai Islands",
+        "description": "Welcome to the Interlusion. What happens when the best surf trip of former world champ Joel Parkinson's life happens years after ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xtHZKToMvus/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xtHZKToMvus/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xtHZKToMvus/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Billabong",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-02T17:46:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BN0o3fMNk533NyXTB_8p7GvWnwU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eSWST13stO4"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-27T15:00:32Z",
+        "channelId": "UCVo06dBGK9VBBhq15wJxZHQ",
+        "title": "🔵4k (ASMR) 10 Hour Store Loop - Hawaii Surfing - With Relaxing Music☑️",
+        "description": "Waves of the World Filmers: Chris Kincade: https://www.instagram.com/chriskincade.wotw Andre Botha: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eSWST13stO4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eSWST13stO4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eSWST13stO4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Waves of the World",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-27T15:00:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xZ4nwrkzqY4aa1dtNw4z9vnZqms",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ma67yOdMQfs"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-23T17:00:15Z",
+        "channelId": "UC--3c8RqSfAqYBdDjIG3UNA",
+        "title": "These Were The All-Time Surfing Moments Of The Year | Best Of 2020",
+        "description": "Well, that was a weird ride. Though it hasn't been easy, at least when we fixed our gaze on the ocean — or favorite place in the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ma67yOdMQfs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ma67yOdMQfs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ma67yOdMQfs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Red Bull Surfing",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-23T17:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PDffR5Y0Mut11m79hFWDnstXLUg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SzzrSJLsPHA"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-21T10:23:24Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "ASSISTA AO VIVO Western Australia Margaret River Pro 2023 - Dia 2",
+        "description": "O Mid-season Cut está aqui e Margaret River é uma batalha pela sobrevivência. O Tour do Campeonato completo entra, mas ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SzzrSJLsPHA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SzzrSJLsPHA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SzzrSJLsPHA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-21T10:23:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VDNQZ7SopXZRZSxRxfnhD4O7pQs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OHaKUMtxGTU"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-11T09:44:18Z",
+        "channelId": "UCoicMEw3njXscfwHlaAJVcQ",
+        "title": "SURFING THE CLEAREST WAVES EVER!? (RAW POV) + TESTING SURF GEAR [PT.2]",
+        "description": "In today's video, I surf the CLEAREST WAVES I have ever surfed! I also test out all the gear @HoStevie got me for Christmas!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OHaKUMtxGTU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OHaKUMtxGTU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OHaKUMtxGTU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Surfing With Noz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-11T09:44:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GiGTLzKclVkvfJB5aT1q2Gd2X2U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PEmOuYU0MRs"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-20T05:14:37Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "WATCH LIVE Western Australia Margaret River Pro 2023 - Day 1",
+        "description": "Shop a limited run of official event merchandise from the 2023 Margaret River Pro at: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PEmOuYU0MRs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PEmOuYU0MRs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PEmOuYU0MRs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-20T05:14:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "k-3FqnfFr8GkgdXW3oqoDZMfh2I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Smgql_DESn8"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-15T10:59:56Z",
+        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
+        "title": "Stray Kids &quot;Surfin&#39; (리노, 창빈, 필릭스)(Surfin&#39; (Lee Know, Changbin, Felix))&quot; Video",
+        "description": "Stray Kids(스트레이 키즈) \"Surfin' (리노, 창빈, 필릭스)(Surfin' (Lee Know, Changbin, Felix))\" Video Stray Kids THE 2ND ALBUM ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Smgql_DESn8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Smgql_DESn8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Smgql_DESn8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Stray Kids",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-15T10:59:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eKyCTiep9dHaYhTYuPXmcvxvEB4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-sb1i1p1-uE"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-21T08:28:57Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "Kelly Slater Has His Best Heat Of The Year Finding His Magic Rhythm Over World #1",
+        "description": "Kelly Slater sitting below the cut line starts to move water with his best heat of the year totaling 14.17 (7.60 + 6.57), to advance into ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-sb1i1p1-uE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-sb1i1p1-uE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-sb1i1p1-uE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-21T08:28:57Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9HH3OVclU2cbxLokthkOscgjUv0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RIs12Ls53dA"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-19T10:45:01Z",
+        "channelId": "UCetqivVVEGv6diBDDM0ItQg",
+        "title": "Perfect Margaret River with the worlds best surfers 2023 // Margaret River Pro - WSL",
+        "description": "Hey guys, Once again my amazing hubby Tom has put together an epic video of the worlds best surfers warming up for the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RIs12Ls53dA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RIs12Ls53dA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RIs12Ls53dA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Lakey Peterson",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-19T10:45:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qdQ3uKysiSdhpGYUbWQLUOkB5LY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zZqxPozl2Ec"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-24T07:00:09Z",
+        "channelId": "UCEUYW6zm6KnUxPcwY1D8HsQ",
+        "title": "Surfing Massive Waves Waimea Bay (Jan 22, 2023)  4K",
+        "description": "What occurred on January 22, 2023, at Waimea Bay on the North Shore of Oahu is nothing short of historical. We're simply doing ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zZqxPozl2Ec/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zZqxPozl2Ec/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zZqxPozl2Ec/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Eimy’s Hawaii Happy life 🏄🏻",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-24T07:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QjUfgg0eqrfTWur5Mtbs3ivc8DQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "buVesH_lpHc"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-21T06:09:18Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "Slater, Chianca, Thomas | Western Australia Margaret River Pro - Opening Round Heat Replay",
+        "description": "Shop a limited run of official event merchandise from the 2023 Margaret River Pro at: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/buVesH_lpHc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/buVesH_lpHc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/buVesH_lpHc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-21T06:09:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "f1Fc94uJKvzXIojSmenFDP1ct_8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pmlzdeZuAk8"
+      },
+      "snippet": {
+        "publishedAt": "2021-02-27T14:28:13Z",
+        "channelId": "UCxkIzPnPzWLz4IeuxIROflg",
+        "title": "What Surfing Is ACTUALLY Like as a Beginner",
+        "description": "See what it's actually like to surf as a beginner, including why it's fun and why it kind of sucks at times! Click below to join the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pmlzdeZuAk8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pmlzdeZuAk8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pmlzdeZuAk8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Travis Marziani",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-02-27T14:28:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TokK-_qAHiepHVVa6mv8Sa5jG2g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aRZ46l9j7mU"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-21T14:30:36Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "WSL FANTASY - Kaipo Breaks Down His Western Australia Margaret River Pro Squad",
+        "description": "The Mid-season Cut is here and Margaret River is a battle for survival. The full Championship Tour enters, but only the top 22 men ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aRZ46l9j7mU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aRZ46l9j7mU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aRZ46l9j7mU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-21T14:30:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nBUww5Gso9qQfTN4kzmdUKpL0ec",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vY91wUhR-fE"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-14T15:00:36Z",
+        "channelId": "UCQ5kqUO7Pkc7YWRNnjetfbw",
+        "title": "That’s NOT Surfing?!",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vY91wUhR-fE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vY91wUhR-fE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vY91wUhR-fE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Skid Kids",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-14T15:00:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4kSvWpGo8Kr0H9md07h-sycuy_U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Uedv4sYNVHY"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-21T08:27:05Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "Ferreira, Fioravanti, Marshall | Western Australia Margaret River Pro - Opening Round Heat Replay",
+        "description": "Shop a limited run of official event merchandise from the 2023 Margaret River Pro at: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Uedv4sYNVHY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Uedv4sYNVHY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Uedv4sYNVHY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-21T08:27:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KoA__k7E1RUYzBVIbQ0N7rjjBMQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "j1AQ_s-y52M"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-16T19:00:13Z",
+        "channelId": "UCvOh9i-BOFzu51rpj33fGag",
+        "title": "7 tips to transition from beginner to intermediate | How to Surf",
+        "description": "In this video, we break down our 7 best tips on how to transition from Beginner to Intermediate faster. 00:00 Intro 00:24 Surf The ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/j1AQ_s-y52M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/j1AQ_s-y52M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/j1AQ_s-y52M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Barefoot Surf",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-16T19:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vSzcOP7wOEfv22OBMYjlDxv7_8M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kugP39DHeM8"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-21T09:49:30Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "HIGHLIGHTS Day 2 // Western Australia Margaret River Pro",
+        "description": "Dominant displays from Gabriel Medina, John John Florence, and Liam O'Brien. The GOAT Kelly Slater takes control in Opening ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kugP39DHeM8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kugP39DHeM8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kugP39DHeM8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-21T09:49:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "miq6G9c7aGFEd0KFX5-JYW_sPd4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xWUnQ_tr94o"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-21T06:08:52Z",
+        "channelId": "UCLdPicN16eAKPKir8EY1UXQ",
+        "title": "INSANE FIJI GLASS RAW POV SURF SESSION",
+        "description": "I surfed and recorded this raw POV surf session in Fiji whilst on a private coaching week with some epic students. The sun came ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xWUnQ_tr94o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xWUnQ_tr94o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xWUnQ_tr94o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Kale Brock",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-21T06:08:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EtpuTMMjFRt-dPMM5cAhMQwF5b0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ALRoebu0Rgs"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-08T08:02:51Z",
+        "channelId": "UCgrzEQkzzbWl6Sx_8DD1jiQ",
+        "title": "What happened when I fall #surf #surfing #athlete #waves #surfers #skate #wsl #fit",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ALRoebu0Rgs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ALRoebu0Rgs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ALRoebu0Rgs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Jake Abel",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-08T08:02:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3nAGukbNQLRpYECdRoUujxZIcvM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lC7Z0oZbiAQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-18T14:00:30Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "Pre Comp Free Surf // Western Australia Margaret River Pro",
+        "description": "Featuring John John Florence, Gabriel Medina, João Chianca, Caio Ibelli, Liam O'Brien, Jordy Smith, Callum Robson, Barron ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lC7Z0oZbiAQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lC7Z0oZbiAQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lC7Z0oZbiAQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-18T14:00:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ov_pIH_8DyAU6LA4ZtKaJEGpOfo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1rIEi6vRlT4"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-21T15:08:40Z",
+        "channelId": "UCeYue9Nbodzg3T1Nt88E3fg",
+        "title": "Mason Ho &amp; Noa Deane Surf Cold Mini Slab",
+        "description": "Mason Ho has been in and out of the water recently due to an injury. After a few weeks of healing we hit up one of our favorite ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1rIEi6vRlT4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1rIEi6vRlT4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1rIEi6vRlT4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ho & Pringle Productions",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-21T15:08:40Z"
+      }
+    }
+  ]
+}

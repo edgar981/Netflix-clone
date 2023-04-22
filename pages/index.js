@@ -10,6 +10,16 @@ import SectionCards from "@/components/card/section-cards";
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+    const pelisVideos = [
+        {
+            imgUrl: '/static/upMovie.webp'
+        },
+        {
+            imgUrl: '/static/upMovie.webp'
+        },
+    ]
+
   return (
     <div className={styles.container}>
       <Head>
@@ -21,10 +31,10 @@ export default function Home() {
       <NavBar username={'edgar'}/>
       <Banner title='Up' subTitle='adventure' imgUrl='/static/upMovie.webp'/>
 
-      <SectionCards />
-      <Card imgUrl={"/static/upMovie.webp"} size={'large'}/>
-      <Card imgUrl={"/static/upMovie.webp"} size={'medium'}/>
-      <Card imgUrl={"/static/upMovie.webp"} size={'small'}/>
+      <div className={styles.sectionWrapper}>
+          <SectionCards title={'Pelis'} videos={pelisVideos} size={'large'}/>
+          <SectionCards title={'Pelis'} videos={pelisVideos} size={'medium'}/>
+      </div>
 
     </div>
   )
