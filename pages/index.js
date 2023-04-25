@@ -6,7 +6,7 @@ import Banner from "@/components/banner/banner";
 import NavBar from "@/components/nav/navBar";
 import Card from "@/components/card/card";
 import SectionCards from "@/components/card/section-cards";
-import { getVideos} from "@/lib/videos";
+import {getPopularVideos, getVideos} from "@/lib/videos";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,11 +14,12 @@ export async function getServerSideProps (){
     const pelisVideos = await getVideos('Hollywood%20animation%20movies');
     const productivityVideos = await getVideos('Productivity');
     const travelVideos = await getVideos('Travel');
+    const popularVideos = await getPopularVideos();
 
-    return {props: {pelisVideos, productivityVideos, travelVideos}}
+    return {props: {pelisVideos, productivityVideos, travelVideos, popularVideos}}
 }
 
-export default function Home({pelisVideos, productivityVideos, travelVideos}) {
+export default function Home({pelisVideos, productivityVideos, travelVideos, popularVideos}) {
 
   return (
     <div className={styles.container}>
@@ -35,7 +36,7 @@ export default function Home({pelisVideos, productivityVideos, travelVideos}) {
           <SectionCards title={'Pelis'} videos={pelisVideos} size={'large'}/>
           <SectionCards title={'Travel'} videos={travelVideos} size={'small'}/>
           <SectionCards title={'Productivity'} videos={productivityVideos} size={'medium'}/>
-          <SectionCards title={'Popular'} videos={[]} size={'small'}/>
+          <SectionCards title={'Popular'} videos={popularVideos} size={'small'}/>
       </div>
 
     </div>
