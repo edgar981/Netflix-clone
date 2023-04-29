@@ -39,6 +39,18 @@ const NavBar = () => {
         setShowDropdown(!showDropdown);
     }
 
+    const handleSignOut = async (e) => {
+        e.preventDefault();
+
+        try {
+            await magicClient.user.logout();
+            router.push('/login');
+        } catch (e) {
+            console.log(e);
+            router.push('/login');
+        }
+    }
+
     return (
         <div className={styles.container}>
             <div className={styles.wrapper}>
@@ -61,10 +73,8 @@ const NavBar = () => {
                     </button>
 
                     {showDropdown && (
-                        <div className={styles.navDropdwon}>
-                            <Link href={'/login'} legacyBehavior>
-                                <a className={styles.linkName}>Sign out</a>
-                            </Link>
+                        <div className={styles.navDropdown}>
+                            <a className={styles.linkName} onClick={handleSignOut}>Sign out</a>
                             <div className={styles.lineWrapper}></div>
                         </div>
                     )}
