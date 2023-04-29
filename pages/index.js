@@ -7,7 +7,7 @@ import NavBar from "@/components/nav/navBar";
 import Card from "@/components/card/card";
 import SectionCards from "@/components/card/section-cards";
 import {getPopularVideos, getVideos} from "@/lib/videos";
-import {magicClient} from "@/lib/magic-client";
+
 
 const inter = Inter({ subsets: ['latin'] })
 
