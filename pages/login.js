@@ -10,22 +10,27 @@ const Login = () => {
     const router = useRouter();
     const [email, setEmail] = useState('');
     const [userMsg, setUserMsg] = useState('');
+    const [isLoading, setIsLoading] = useState(false)
 
     const handleLoginWithEmail = async (e) => {
         e.preventDefault();
         if (email) {
             if (email  === 'davidnb81230@gmail.com') {
                 try {
+                    setIsLoading(true);
                    const didToken = await magicClient.auth.loginWithMagicLink({ email, });
-                   didToken ? router.push('/') : null;
+                   didToken ? setIsLoading(false) && router.push('/') : null;
                    console.log({didToken})
                 } catch (error){
-                    console.log("Something went wrong", error)
+                    console.log("Something went wrong", error);
+                    setIsLoading(false);
                 }
             } else {
+                setIsLoading(false);
                 setUserMsg('Something went wrong logging in');
             }
         } else {
+            setIsLoading(false);
             setUserMsg('Enter a valid email address');
         }
     }
@@ -59,7 +64,7 @@ const Login = () => {
                     <input type={'text'} onChange={handleOnChangeEmail} placeholder={'Email address'} className={styles.emailInput}/>
                     <p className={styles.userMsg}>{userMsg}</p>
 
-                    <button onClick={handleLoginWithEmail} className={styles.loginBtn}>Sign in</button>
+                    <button onClick={handleLoginWithEmail} className={styles.loginBtn}>{isLoading ? "Loading..." : "Sign in"}</button>
                 </div>
             </main>
         </div>
