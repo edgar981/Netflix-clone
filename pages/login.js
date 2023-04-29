@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Login.module.css";
 import Image from "next/image";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {useRouter} from "next/router";
 import {magicClient} from "@/lib/magic-client";
 
@@ -10,7 +10,22 @@ const Login = () => {
     const router = useRouter();
     const [email, setEmail] = useState('');
     const [userMsg, setUserMsg] = useState('');
-    const [isLoading, setIsLoading] = useState(false)
+    const [isLoading, setIsLoading] = useState(false);
+
+    useEffect(()=> {
+        const handleComplete = () => {
+            setIsLoading(false);
+        }
+
+        router.events.on("routeChangeComplete", handleComplete);
+        router.events.on("routeChangeError", handleComplete);
+
+        return () => {
+            router.events.off("routeChangeComplete", handleComplete);
+            router.events.off("routeChangeError", handleComplete);
+        }
+
+    },[router])
 
     const handleLoginWithEmail = async (e) => {
         e.preventDefault();
@@ -19,8 +34,7 @@ const Login = () => {
                 try {
                     setIsLoading(true);
                    const didToken = await magicClient.auth.loginWithMagicLink({ email, });
-                   didToken ? setIsLoading(false) && router.push('/') : null;
-                   console.log({didToken})
+                   didToken ? router.push('/') : null;
                 } catch (error){
                     console.log("Something went wrong", error);
                     setIsLoading(false);

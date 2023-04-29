@@ -30,7 +30,7 @@ export default function Home({pelisVideos, productivityVideos, travelVideos, pop
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <NavBar username={'edgar'}/>
+      <NavBar />
       <Banner title='Up' subTitle='adventure' imgUrl='/static/upMovie.webp'/>
 
       <div className={styles.sectionWrapper}>
