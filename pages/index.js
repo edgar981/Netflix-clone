@@ -31,7 +31,7 @@ export default function Home({pelisVideos, productivityVideos, travelVideos, pop
       </Head>
 
       <NavBar />
-      <Banner title='Up' subTitle='adventure' imgUrl='/static/upMovie.webp'/>
+      <Banner videoId='UTAvGzCK6ok' title='Up' subTitle='adventure' imgUrl='/static/upMovie.webp'/>
 
       <div className={styles.sectionWrapper}>
           <SectionCards title={'Pelis'} videos={pelisVideos} size={'large'}/>
