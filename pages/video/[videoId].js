@@ -3,19 +3,11 @@ import Modal from 'react-modal';
 import styles from '../../styles/video.module.css';
 import cls from "classnames";
 import {getYoutubeVideoById} from "@/lib/videos";
+import NavBar from "@/components/nav/navBar";
 
 Modal.setAppElement('#__next');
 
 export async function getStaticProps(context) {
-    // const video = {
-    //     title: 'Hi everybody on valley',
-    //     publishTime: '2023-01-01',
-    //     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,' +
-    //         ' when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, ' +
-    //         'when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ',
-    //     channelTitle: 'Family Central',
-    //     viewCount: 1000000,
-    // }
     const videoId = context.params.videoId;
     const videoArray = await getYoutubeVideoById(videoId);
 
@@ -43,6 +35,8 @@ const Video = ({video}) => {
     const {title, publishTime, channelTitle, description, statistics: {viewCount}} = video;
 
     return <div className={styles.container}>
+        <NavBar />
+
         <Modal
             isOpen={true}
             contentLabel="Video Modal"
