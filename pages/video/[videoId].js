@@ -2,21 +2,45 @@ import {useRouter} from "next/router";
 import Modal from 'react-modal';
 import styles from '../../styles/video.module.css';
 import cls from "classnames";
+import {getYoutubeVideoById} from "@/lib/videos";
 
 Modal.setAppElement('#__next');
 
-const Video = () => {
+export async function getStaticProps(context) {
+    // const video = {
+    //     title: 'Hi everybody on valley',
+    //     publishTime: '2023-01-01',
+    //     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,' +
+    //         ' when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, ' +
+    //         'when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ',
+    //     channelTitle: 'Family Central',
+    //     viewCount: 1000000,
+    // }
+    const videoId = context.params.videoId;
+    const videoArray = await getYoutubeVideoById(videoId);
+
+    return {
+        props: {
+            video: videoArray.length > 0 ? videoArray[0] : {},
+        },
+        revalidate: 10,
+    }
+}
+
+export async function getStaticPaths() {
+    const listOfVideos = ["mYfJxlgR2jw", "4zH5iYM4wJo", "KCPEHsAViiQ"];
+
+    const paths = listOfVideos.map((videoId) => ({
+        params: { videoId },
+    }))
+
+    return { paths, fallback: 'blocking' }
+}
+
+const Video = ({video}) => {
     const router = useRouter();
 
-    const video = {
-        title: 'Hi everybody on valley',
-        publishTime: '1990-01-01',
-        description: 'description hehe',
-        channelTitle: 'Family Central',
-        viewCount: 1000000,
-    }
-
-    const {title, publishTime, channelTitle, description, viewCount} = video;
+    const {title, publishTime, channelTitle, description, statistics: {viewCount}} = video;
 
     return <div className={styles.container}>
         <Modal
