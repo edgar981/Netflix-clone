@@ -34,19 +34,41 @@ export async function getStaticPaths() {
 
 const Video = ({video}) => {
     const router = useRouter();
+    const videoId = router.query.videoId;
     const [toggleLike, setToggleLike] = useState(false);
     const [toggleDisLike, setToggleDisLike] = useState(false);
 
     const {title, publishTime, channelTitle, description, statistics: {viewCount}} = video;
 
-    const handleToggleDislike = () => {
-        setToggleDisLike(!toggleDisLike);
-        setToggleLike(toggleDisLike);
+    const rating = async (favourited) => {
+        return await fetch('/api/stats', {
+            method: 'POST',
+            body: JSON.stringify({
+                videoId,
+                favourited,
+            }),
+            headers: {
+                'Content-type': 'application/json'
+            }
+        });
     }
 
-    const handleToggleLike = () => {
-        setToggleLike(!toggleLike);
+    const handleToggleDislike = async () => {
+        const val = !toggleDisLike;
+        setToggleDisLike(val);
+        setToggleLike(toggleDisLike);
+
+        const favourited = val ? 0 : 1;
+        const response = await rating(favourited);
+    }
+
+    const handleToggleLike = async () => {
+        const val = !toggleLike;
+        setToggleLike(val);
         setToggleDisLike(toggleLike);
+        const favourited = val ? 1 : 0;
+        const response = await rating(favourited);
+
     }
 
     return <div className={styles.container}>
@@ -60,7 +82,7 @@ const Video = ({video}) => {
             overlayClassName={styles.overlay}
         >
             <iframe id={'ytplayer'} type={'text/html'} width={'100%'} className={styles.videoPlayer}
-                    height={'360'} src={`https://www.youtube.com/embed/${router.query.videoId}?autoplay=0&origin=http://example.com&controls=0&rel=1`}
+                    height={'360'} src={`https://www.youtube.com/embed/${videoId}?autoplay=0&origin=http://example.com&controls=0&rel=1`}
                     frameBorder={'0'}></iframe>
 
             <div className={styles.likeDislikeBtnWrapper}>
