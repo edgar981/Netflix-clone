@@ -10,6 +10,7 @@ const SectionCards = (props) => {
         <div className={styles.cardWrapper}>
             {videos.map((video, idx) => {
                 return (
+                    // eslint-disable-next-line react/jsx-key
                     <Link href={`/video/${video.id}`} >
                         <Card id={idx} key={idx} imgUrl={video.imgUrl} size={size}/>
                     </Link>
