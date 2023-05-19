@@ -7,21 +7,26 @@ import NavBar from "@/components/nav/navBar";
 import Card from "@/components/card/card";
 import SectionCards from "@/components/card/section-cards";
 import {getPopularVideos, getVideos, getWatchItAgainVideos} from "@/lib/videos";
+import {verifyToken} from "@/lib/utils";
+import useRedirectUser from "@/utils/redirectUser";
 
 
 const inter = Inter({ subsets: ['latin'] })
 
-export async function getServerSideProps (){
+export async function getServerSideProps (context){
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    const {userId, token} = await useRedirectUser();
+
     const pelisVideos = await getVideos('Hollywood%20animation%20movies');
     const productivityVideos = await getVideos('Productivity');
     const travelVideos = await getVideos('Travel');
     const popularVideos = await getPopularVideos();
-    const watchItAgainVideos = getWatchItAgainVideos();
+    const watchItAgainVideos = await getWatchItAgainVideos(userId, token);
 
     return {props: {pelisVideos, productivityVideos, travelVideos, popularVideos, watchItAgainVideos}}
 }
 
-export default function Home({pelisVideos, productivityVideos, travelVideos, popularVideos, watchItAgainVideos}) {
+export default function Home({pelisVideos, productivityVideos, travelVideos, popularVideos, watchItAgainVideos=[]}) {
 
   return (
     <div className={styles.container}>
