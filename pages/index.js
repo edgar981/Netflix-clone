@@ -15,7 +15,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export async function getServerSideProps (context){
     // eslint-disable-next-line react-hooks/rules-of-hooks
-    const {userId, token} = await useRedirectUser();
+    const {userId, token} = await useRedirectUser(context);
 
     if (!userId){
         return {
