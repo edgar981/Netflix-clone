@@ -9,6 +9,7 @@ const NavBar = () => {
     const router = useRouter();
     const [showDropdown, setShowDropdown] = useState(false);
     const [username, setUsername] = useState('');
+    const [didToken, setDidToken] = useState("");
 
     useEffect(() => {
         async function getUsername() {
@@ -45,10 +46,17 @@ const NavBar = () => {
         e.preventDefault();
 
         try {
-            await magicClient.user.logout();
-            router.push('/login');
+            const response = await fetch("/api/signOut", {
+                method: 'POST',
+                headers: {
+                    Authorization: `Bearer ${didToken}`,
+                    "Content-Type": "application/json",
+                },
+            });
+
+            const res = await response.json();
         } catch (e) {
-            console.log(e);
+            console.error('Error signing out',e);
             router.push('/login');
         }
     }
@@ -56,11 +64,11 @@ const NavBar = () => {
     return (
         <div className={styles.container}>
             <div className={styles.wrapper}>
-                <a className={styles.logoLink} href={"/"}>
+                <Link className={styles.logoLink} href={"/"}>
                     <div className={styles.logoWrapper}>
                         <Image src={'/static/netflix.svg'} alt={'Netflix logo'} width={115} height={33}/>
                     </div>
-                </a>
+                </Link>
 
             <ul className={styles.navItems}>
                 <li className={styles.navItem} onClick={handleOnClickHome}>Home</li>
