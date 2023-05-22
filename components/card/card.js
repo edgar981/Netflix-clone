@@ -30,7 +30,7 @@ const Card = (props) => {
 
     return (
         <div className={styles.container}>
-            <motion.div className={cls(styles.imgMotionWrapper, classMap[size])} whileHover={{...shouldHover}}>
+            <motion.div className={cls(styles.imgMotionWrapper, classMap[size])} {...shouldHover}>
                 <Image src={imgSrc} alt={'Image'} layout={'fill'} className={styles.cardImg} onError={handleOnError}/>
             </motion.div>
         </div>
