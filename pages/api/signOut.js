@@ -20,7 +20,6 @@ export default async function signOut (req, res){
         res.writeHead(302, { Location: "/login" });
         res.end();
     } catch (error) {
-        console.log(error)
         res.status(500).send({done:false})
     }
 }
